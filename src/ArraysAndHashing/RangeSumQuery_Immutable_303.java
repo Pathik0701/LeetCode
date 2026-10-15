@@ -1,11 +1,9 @@
 package ArraysAndHashing;
 
-public class RangeSumQuery_Immutable_303 {
-}
-class NumArray {
+class RangeSumQuery_Immutable_303 {
     private int[] prefixSums;
 
-    public NumArray(int[] nums) {
+    public RangeSumQuery_Immutable_303(int[] nums) {
         // Handle empty array edge case safely
         if (nums == null || nums.length == 0) {
             prefixSums = new int[1]; // [0]
